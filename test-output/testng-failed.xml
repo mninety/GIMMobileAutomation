@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuperManSanitySuite]" parallel="instances">
+  <test thread-count="5" name="SupermanTest(failed)" parallel="instances">
+    <classes>
+      <class name="Customer.FunctionalTest5">
+        <methods>
+          <include name="Validation_InvitingAlreadyRegisteredCustomer_Tobe_Customer"/>
+          <include name="ValidateCustomerlistedNotifications_AreDisplayed"/>
+          <include name="StartTrip_ByCustomer"/>
+          <include name="SubmitMyRating_DefaultRatings"/>
+          <include name="getTripID_AndAcceptTrip_ByAdmin"/>
+          <include name="stopServer"/>
+          <include name="LaunchDashboard_VerifyCompletedTrip_isDisplayed_WithoutAnyFilters"/>
+          <include name="CreateNewTrip"/>
+          <include name="Createnewtrip_withreferredcustomer"/>
+          <include name="Validation_RegisterasNewCustomer_ByEnteringReferralCode_ofExistingCustomer_WhileRegistering"/>
+          <include name="startServer"/>
+          <include name="ValidateBidReceivedNotification_whenTapped_LandsUser_onto_BidListScreen"/>
+          <include name="ValidateAmendedDriverTruck_ForBookedTrip"/>
+          <include name="CreateTrip_ForApprovedUser"/>
+          <include name="CompleteTrip_ByCustomer"/>
+          <include name="CreateTrip_ForPartnerToBid_AndThen_WithdrawBid"/>
+          <include name="AcceptBid"/>
+          <include name="CreateTrip_And_CancelTrip"/>
+          <include name="ReferredCustomer_completetrip_ByAcceptingBid_And_ValidateEarningsforFirstSuccessfulTripCompletion"/>
+          <include name="validateearnings_for_firstcompletedtrip_referre"/>
+          <include name="SignupTest"/>
+          <include name="LoginTest_InvalidUser"/>
+          <include name="VerifyTappingOnTriponDashboard_LandsUser_Onto_TripDetailsScreen"/>
+          <include name="AcceptNewPlacedBid_ByPartner"/>
+          <include name="AcceptPlacedBid_ByPartner"/>
+          <include name="InviteUser_ToJoinAs_Customer"/>
+          <include name="ValidateTripStartedNotification_WhenTapped_LandsUser_Onto_BookingDetailsScreen_Foruser_havingOption_toCompleteTrip"/>
+        </methods>
+      </class> <!-- Customer.FunctionalTest5 -->
+      <class name="Partner.FunctionalTest2">
+        <methods>
+          <include name="ValidateEarnings_forreferre"/>
+          <include name="CancelWonBid"/>
+          <include name="ValidateEnglishtoBangla"/>
+          <include name="PlaceBidonTrip"/>
+          <include name="Inviteuser_ToJoinAs_Partner"/>
+          <include name="NewlyAddedDriver_isin_PendingState_Validation"/>
+          <include name="stopServer"/>
+          <include name="checkTruckinPendingTab"/>
+          <include name="ValidateBidAcceptedNotification_Landsuser_onto_StarttripScreen"/>
+          <include name="Validation_RegisterasNewPartner_ByEnteringReferralCode_ofExistingPartner_whileRegistering"/>
+          <include name="AcceptDriverAssociationRequest"/>
+          <include name="PartnerStartTrip"/>
+          <include name="Validation_InvitingAlreadyRegisteredPartner_Tobe_Partner"/>
+          <include name="placebidontrip_createdbyreferredcustomer_and_ValidateEarningsforreferredcustomer"/>
+          <include name="PartnerEndTrip"/>
+          <include name="PlaceBid_thenWithdrawBid"/>
+          <include name="SearchforNonregisteredDriver_Validation"/>
+          <include name="startServer"/>
+          <include name="placeBidonTrip_ForFutureCancellation_AfterWinningBid"/>
+          <include name="AddNewTruck_withMandtoryFields_ToActivePartner"/>
+          <include name="ValidateNewTripNotification_WhenTapped_Landsuser_onto_PlaceBidScreen"/>
+          <include name="CheckTruckisDisplayed_inApprovedTab"/>
+          <include name="InvoicePayments_Validation"/>
+          <include name="ApproveDriverByAdmin_and_ValidateDriverstatusonApp"/>
+          <include name="ApproveTruck_AndAddTracker"/>
+          <include name="EditTruckAndDriver_For_BookedTrip"/>
+          <include name="AddNewTruckAndDriver_ToUseFor_EditTruckDriver_And_PlaceBid"/>
+          <include name="ValidateBanglatoEnglish"/>
+          <include name="NoBidsToDisplayValidation_ForOngoingWonLostBids"/>
+          <include name="ValidateCompleteTripNotificationWhenTapped_Landsuser_onto_TripDetailsScreen"/>
+          <include name="SignupTest_AsPartner"/>
+          <include name="LoginTest_InvalidUser"/>
+          <include name="ValidatePartnerListedNotifications_AreDisplayed"/>
+          <include name="Register_NonregisteredDriverToGIMPlatform_Validation"/>
+        </methods>
+      </class> <!-- Partner.FunctionalTest2 -->
+    </classes>
+  </test> <!-- SupermanTest(failed) -->
+</suite> <!-- Failed suite [SuperManSanitySuite] -->

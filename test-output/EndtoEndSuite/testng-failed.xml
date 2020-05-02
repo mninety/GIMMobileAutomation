@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EndtoEndSuite]" parallel="instances">
+  <test thread-count="5" name="EndtoEndTest(failed)" parallel="instances">
+    <classes>
+      <class name="Customer.FunctionalTest5">
+        <methods>
+          <include name="stopServer"/>
+          <include name="startServer"/>
+          <include name="ReferredCustomer_completetrip_ByAcceptingBid_And_ValidateEarningsforFirstSuccessfulTripCompletion"/>
+          <include name="validateearnings_for_firstcompletedtrip_referre"/>
+          <include name="ValidateBidReceivedNotification_whenTapped_LandsUser_onto_BidListScreen"/>
+          <include name="ValidateTripStartedNotification_WhenTapped_LandsUser_Onto_BookingDetailsScreen_Foruser_havingOption_toCompleteTrip"/>
+        </methods>
+      </class> <!-- Customer.FunctionalTest5 -->
+      <class name="Partner.FunctionalTest2">
+        <methods>
+          <include name="ValidateEarnings_forreferre"/>
+          <include name="EditTruckAndDriver_For_BookedTrip"/>
+          <include name="ValidateBidAcceptedNotification_Landsuser_onto_StarttripScreen"/>
+          <include name="AddNewTruckAndDriver_ToUseFor_EditTruckDriver_And_PlaceBid"/>
+          <include name="ValidateCompleteTripNotificationWhenTapped_Landsuser_onto_TripDetailsScreen"/>
+          <include name="AddNewTruck_withMandtoryFields_ToActivePartner"/>
+          <include name="ValidateNewTripNotification_WhenTapped_Landsuser_onto_PlaceBidScreen"/>
+          <include name="placebidontrip_createdbyreferredcustomer_and_ValidateEarningsforreferredcustomer"/>
+          <include name="ValidatePartnerListedNotifications_AreDisplayed"/>
+          <include name="startServer"/>
+          <include name="Register_NonregisteredDriverToGIMPlatform_Validation"/>
+          <include name="stopServer"/>
+        </methods>
+      </class> <!-- Partner.FunctionalTest2 -->
+    </classes>
+  </test> <!-- EndtoEndTest(failed) -->
+</suite> <!-- Failed suite [EndtoEndSuite] -->

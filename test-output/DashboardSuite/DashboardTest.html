@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  DashboardTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DashboardTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 30 21:43:04 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (37 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Partner.PartnerDashTest.AfterTripCompletion_FilterBy_FromPickUpDateSettoCurrentDate_ValidateTotalTripCount_TotalTripAmount()'><b>AfterTripCompletion_FilterBy_FromPickUpDateSettoCurrentDate_ValidateTotalTripCount_TotalTripAmount</b><br>Test class: Partner.PartnerDashTest<br>Test method: After trip complettion successfully, Validate total tripcount and  trip amount by filtering from pickupdate set to current date</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.AfterTripCompletion_FilterBy_ToPickDateSettoCurrentDate_ValidateTotalTripCount_TotalTripAmount()'><b>AfterTripCompletion_FilterBy_ToPickDateSettoCurrentDate_ValidateTotalTripCount_TotalTripAmount</b><br>Test class: Partner.PartnerDashTest<br>Test method: After trip completion successfully, Validate total trip count and trip amount by filtering to pickupdate set to current date</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.ClearFilter_WithoutSelectin_AnyFilterAttributes_Search_And_ValidateTotalTripCount_And_TotalAmount()'><b>ClearFilter_WithoutSelectin_AnyFilterAttributes_Search_And_ValidateTotalTripCount_And_TotalAmount</b><br>Test class: Partner.PartnerDashTest<br>Test method: Clearfilter without selecting any filter attributes and tap on search filter to validate total trip count and total amount</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.CompleteTripCyclye_For9Trips_and_start1Trip()'><b>CompleteTripCyclye_For9Trips_and_start1Trip</b><br>Test class: Customer.CustomerDashTest<br>Test method: Complete a trip cycle for 9 trips and start 1 trip</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.EndLiveTrip_AsPartner_And_ValidateTotalTripCount_TotalTripAmount()'><b>EndLiveTrip_AsPartner_And_ValidateTotalTripCount_TotalTripAmount</b><br>Test class: Partner.PartnerDashTest<br>Test method: End a live trip as partner and validate the trip count and trip amount</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.FilterSearch_Without_Selecting_AnyFilterAttributes_And_ValidateTotalTripCount_TotalAmount()'><b>FilterSearch_Without_Selecting_AnyFilterAttributes_And_ValidateTotalTripCount_TotalAmount</b><br>Test class: Partner.PartnerDashTest<br>Test method: Tap on Filter Search without selecting any filter attributes and Validate total trip count and total trip amount</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.IrrelvantGoodsTypeSearch_ByFilter()'><b>IrrelvantGoodsTypeSearch_ByFilter</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if 0 trips are displayed when irrelevant goods type is searched for</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.SetFromDateToCurrentDate_ValidateTripCount_TripAmount()'><b>SetFromDateToCurrentDate_ValidateTripCount_TripAmount</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if relevant trips and correct Total trip count/amount is displayed when From date is set to current date</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.SetFromDateToPastDate_ValidateTripCount_TripAmount()'><b>SetFromDateToPastDate_ValidateTripCount_TripAmount</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if relevant trips and correct Total trip count/amount is displayed when From date is set to past date</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.SetToDateToCurrentDate_ValidateTripCount_TripAmount()'><b>SetToDateToCurrentDate_ValidateTripCount_TripAmount</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if relevant trips and correct Total trip count/amount is displayed when To Date is set to current date</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.SetToDateToPastDate_ValidateTripCount_TripAmount()'><b>SetToDateToPastDate_ValidateTripCount_TripAmount</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if relevant trips and correct Total trip count/amount is displayed when To Date is set to past date</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.TapOnClearFilterAndFilterButtons_WithoutSettingFromToDatesGoodsTypevalues_ValidateTripCount_TripAmount()'><b>TapOnClearFilterAndFilterButtons_WithoutSettingFromToDatesGoodsTypevalues_ValidateTripCount_TripAmount</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if relevant trips and correct Total trip count/amount is displayed when we open filterTap on clear button -> Tap on Filter button without setting any from/todate/goodstype values</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.TaponFilterButton_WithoutSettingFromToDatesGoodsTypeValues_ValidateTripCount_TripAmount()'><b>TaponFilterButton_WithoutSettingFromToDatesGoodsTypeValues_ValidateTripCount_TripAmount</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if relevant trips and correct Total trip count/amount is displayed when we Open filter -> Tap on Filter BUtton without using any from/to date/goods type values</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.ValidateIfNoTripsAreDisplayed_WhenRelevant_DateRangeis_selected()'><b>ValidateIfNoTripsAreDisplayed_WhenRelevant_DateRangeis_selected</b><br>Test class: Customer.CustomerDashTest<br>Test method: Validate if 0 trips are displayed when there are no completed in relevant from/to date range</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.VerifyTotalTripsCount_And_TotalAmount_WhenUser_Landsonto_DashboardScreen()'><b>VerifyTotalTripsCount_And_TotalAmount_WhenUser_Landsonto_DashboardScreen</b><br>Test class: Customer.CustomerDashTest</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.VerifyTruckStatus_AfterTripCompletionSuccessfully()'><b>VerifyTruckStatus_AfterTripCompletionSuccessfully</b><br>Test class: Partner.PartnerDashTest<br>Test method: Verify Truck status After trip completed successfully</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.Verify_DashboardFilter_ByInvalidRegistrationnumber()'><b>Verify_DashboardFilter_ByInvalidRegistrationnumber</b><br>Test class: Partner.PartnerDashTest<br>Test method: Verify dashboard filter by invalid registration number</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.Verify_DashboardFilter_BySetting_FromDate_to_CurrentDate()'><b>Verify_DashboardFilter_BySetting_FromDate_to_CurrentDate</b><br>Test class: Partner.PartnerDashTest<br>Test method: Set fromDate to currentDate and filter to validate total trips and total amount</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Customer.CustomerDashTest.Verify_IncreaseinTotalTripCount_TotalAmount_AfterTrip_EndedByPartner()'><b>Verify_IncreaseinTotalTripCount_TotalAmount_AfterTrip_EndedByPartner</b><br>Test class: Customer.CustomerDashTest<br>Test method: Verify increase in total trip count and total amount after trip is ended by partner</td>
+<td></td>
+<td>0</td>
+<td>Customer.CustomerDashTest@11438d26</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.Verify_TotalTripsCount_And_Amount()'><b>Verify_TotalTripsCount_And_Amount</b><br>Test class: Partner.PartnerDashTest<br>Test method: Verify Total trips count and total amount</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+<tr>
+<td title='Partner.PartnerDashTest.Verify_Total_Live_AvailableTruckCount()'><b>Verify_Total_Live_AvailableTruckCount</b><br>Test class: Partner.PartnerDashTest<br>Test method: Verify total,available and live trucks count when the user lands on the truck dashboard screen</td>
+<td></td>
+<td>0</td>
+<td>Partner.PartnerDashTest@458c1321</td></tr>
+</table><p>
+</body>
+</html>

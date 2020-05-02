@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Customer.FunctionalTest5">
+        <methods>
+          <include name="Validation_InvitingAlreadyRegisteredCustomer_Tobe_Customer"/>
+          <include name="ValidateCustomerlistedNotifications_AreDisplayed"/>
+          <include name="StartTrip_ByCustomer"/>
+          <include name="SubmitMyRating_DefaultRatings"/>
+          <include name="getTripID_AndAcceptTrip_ByAdmin"/>
+          <include name="stopServer"/>
+          <include name="LaunchDashboard_VerifyCompletedTrip_isDisplayed_WithoutAnyFilters"/>
+          <include name="CreateNewTrip"/>
+          <include name="Createnewtrip_withreferredcustomer"/>
+          <include name="Validation_RegisterasNewCustomer_ByEnteringReferralCode_ofExistingCustomer_WhileRegistering"/>
+          <include name="startServer"/>
+          <include name="ValidateBidReceivedNotification_whenTapped_LandsUser_onto_BidListScreen"/>
+          <include name="ValidateAmendedDriverTruck_ForBookedTrip"/>
+          <include name="CreateTrip_ForApprovedUser"/>
+          <include name="CompleteTrip_ByCustomer"/>
+          <include name="CreateTrip_ForPartnerToBid_AndThen_WithdrawBid"/>
+          <include name="AcceptBid"/>
+          <include name="CreateTrip_And_CancelTrip"/>
+          <include name="ReferredCustomer_completetrip_ByAcceptingBid_And_ValidateEarningsforFirstSuccessfulTripCompletion"/>
+          <include name="validateearnings_for_firstcompletedtrip_referre"/>
+          <include name="SignupTest"/>
+          <include name="VerifyTappingOnTriponDashboard_LandsUser_Onto_TripDetailsScreen"/>
+          <include name="AcceptNewPlacedBid_ByPartner"/>
+          <include name="AcceptPlacedBid_ByPartner"/>
+          <include name="InviteUser_ToJoinAs_Customer"/>
+          <include name="ValidateTripStartedNotification_WhenTapped_LandsUser_Onto_BookingDetailsScreen_Foruser_havingOption_toCompleteTrip"/>
+        </methods>
+      </class> <!-- Customer.FunctionalTest5 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
